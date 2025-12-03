@@ -1,10 +1,9 @@
 import React, { useState, useRef } from 'react';
-import { Square, Circle, PenLine, Type, Download, Trash2, RotateCw, Search,Upload } from 'lucide-react';
-import Dashboard from './Dashboard';
+import { Square, Circle, PenLine, Type, Download, Trash2, RotateCw, Search, Upload } from 'lucide-react';
 import Track from './Track';
 import ImageUploadPanel from './components/ImageUploadPanel';
 import VariablePanel from './components/VariablePanel';
-import WikipediaPanel from './components/WikipediaPanel';
+// import WikipediaPanel from './components/WikipediaPanel';
 
 // Properties Panel Component
 function PropertiesPanel({ element, onUpdate }) {
@@ -448,7 +447,7 @@ export default function CanvasStarter() {
       </div>
 
       {/* Image Upload Panel - Now shown by default */}
-      {showImagePanel && (
+       {showImagePanel && (
         <ImageUploadPanel
           onClose={() => setShowImagePanel(false)}
           onImageAdd={addImageElement}
@@ -467,24 +466,24 @@ export default function CanvasStarter() {
       )}
 
       {/* Wikipedia Panel - Hidden by default */}
-      {showWikipediaPanel && (
+      {/* {showWikipediaPanel && (
         <WikipediaPanel
           onClose={() => setShowWikipediaPanel(false)}
           onAddToCanvas={addWikipediaArticle}
         />
-      )}
+      )} */}
 
       {/* Canvas */}
       <div className="flex-1 flex flex-col">
         <div className="bg-white border-b border-gray-200 p-4 flex gap-2">
-          {!showImagePanel && (
+          {/* {!showImagePanel && (
             <button
               onClick={() => togglePanel('image')}
               className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
             >
               Show Image Upload
             </button>
-          )}
+          )} */}
           {!showVariablePanel && (
             <button
               onClick={() => togglePanel('variables')}
@@ -493,14 +492,14 @@ export default function CanvasStarter() {
               Show Variables
             </button>
           )}
-          {!showWikipediaPanel && (
+          {/* {!showWikipediaPanel && (
             <button
               onClick={() => togglePanel('wikipedia')}
               className="px-4 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600"
             >
               Show Wikipedia
             </button>
-          )}
+          )} */}
           <button
             onClick={rotateElement}
             disabled={!selectedId}

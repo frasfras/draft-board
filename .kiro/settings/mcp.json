@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "canva-dev": {
+      "command": "/Users/franciscosilva/.nvm/versions/node/v20.19.5/bin/npx",
+      "args": ["-y", "@canva/cli@latest", "mcp"],
+      "env": {
+        "PATH": "/Users/franciscosilva/.nvm/versions/node/v20.19.5/bin:${PATH}"
+      }
+    }
+  }
+}
+
