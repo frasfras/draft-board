@@ -1,4 +1,4 @@
-# create simple starter skeleton kit like (canva) app starter kit
+# create simple starter skeleton kit (like canva) app starter kit
 
 
 ## Core Features 
@@ -16,7 +16,6 @@ Export - Download the final design
 
 VariablePanel - Manages all variable-related UI and logic.
 PropertiesPanel 
-canva starter pan
 
 seperate Image Upload Panel 
  Upload images - Choose from your device (PNG, JPG, GIF)

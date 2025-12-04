@@ -15,8 +15,6 @@ Export - Download the final design
 ##  separate React components:
 
 VariablePanel - Manages all variable-related UI and logic.
-PropertiesPanel 
-canva starter pan
 
 seperate Image Upload Panel 
  Upload images - Choose from your device (PNG, JPG, GIF)
