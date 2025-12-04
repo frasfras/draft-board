@@ -1,5 +1,5 @@
-# create simple starter skeleton kit like (canva) app starter kit
-
+# Draftboard variables
+Add engineer diagrams and A Variable Panel: A simple list where a user can define Force = 100N, and use those variables in the canvas labels
 
 ## Core Features 
 
@@ -12,7 +12,7 @@ Layering System - Managing which elements appear on top
 Basic Editing - Resize, rotate, change colors
 Export - Download the final design
 
-## three separate React components:
+##  separate React components:
 
 VariablePanel - Manages all variable-related UI and logic.
 PropertiesPanel 

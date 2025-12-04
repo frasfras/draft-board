@@ -1,5 +1,6 @@
-# create simple starter skeleton kit like (canva) app starter kit
-
+# Wikipedia search app
+Search for Wikipedia articles
+Click "Add to Canvas" to embed
 
 ## Core Features 
 
@@ -12,11 +13,7 @@ Layering System - Managing which elements appear on top
 Basic Editing - Resize, rotate, change colors
 Export - Download the final design
 
-## three separate React components:
-
-VariablePanel - Manages all variable-related UI and logic.
-PropertiesPanel 
-canva starter pan
+##  separate React components:
 
 seperate Image Upload Panel 
  Upload images - Choose from your device (PNG, JPG, GIF)
